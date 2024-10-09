@@ -1,0 +1,458 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+
+/* Navbar */
+.navbar {
+    padding: 1rem;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+.nav-link {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .nav-link {
+        font-size: 16px;
+    }
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.438); /* Background preto com 30% de opacidade */
+    padding: 30px 30px; /* Ajusta o espaçamento (vertical e horizontal) */
+    border-radius: 50px; /* Bordas arredondadas maiores */
+    position: absolute;
+    top: 50%; /* Posiciona a legenda a 50% da altura da imagem */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralizar verticalmente */
+    text-align: center; /* Centraliza o texto */
+    display: inline-block; /* Mantém o fundo ajustado ao conteúdo */
+    width: auto; /* Ajusta a largura ao conteúdo */
+    max-width: 30%; /* Limita a largura para telas menores */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para destaque */
+}
+
+
+
+.carousel-inner img {
+    height: 700px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: auto; /* Ajuste para telas menores */
+    }
+    .carousel-caption h5 {
+        font-size: 24px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+    }
+}
+
+/* Chamada para Ação */
+#call-to-action {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+#call-to-action h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+#call-to-action p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    #call-to-action h2 {
+        font-size: 28px;
+    }
+    #call-to-action p {
+        font-size: 18px;
+    }
+}
+
+/* Seção O que oferecemos */
+#features {
+    background-color: #ffffff;
+}
+#features h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.card {
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 16px;
+}
+
+/* Espaçamento geral */
+.mb-4 {
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: justify; /* Justifica o texto */
+   
+}
+
+.col-md-6{
+    font-size: 18px;
+}
+
+.display-4.mb-4 {
+    font-size: 28px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#sobre{
+    text-align: left;
+}
+
+.lead {
+    font-size: 18px;
+}
+
+/* Seção Linguagens */
+#linguagens p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#linguagens h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#linguagens p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#linguagens ul {
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+#linguagens ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+
+.img-fluid {
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    height: auto;
+    margin-left: 40px;
+}
+
+
+.text-start {
+    text-align: left !important;
+}
+
+/* Linha separadora */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ff7b00;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+/* Espaçamento personalizado */
+#linguagens p.lead {
+    margin-bottom: 80px;
+}
+
+#linguagens .row:first-child {
+    margin-top: 80px;
+}
+
+/* Ajustes de container para max-width */
+.container {
+    max-width: 1200px;
+}
+
+
+.scroll-top{
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #f3a023;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.151);
+    padding: 15px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.scroll-top:hover{
+    box-shadow: none;
+}
+
+/* Estilo para a primeira imagem */
+ #introducao img {
+  width: 60%; /* Aumenta a largura da imagem */
+ border-radius: 15px; /* Suaviza as bordas */
+ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+ transition: transform 0.3s ease; /* Transição suave */
+}
+
+#introducao img:hover {
+transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+ }
+
+ /* Estilo adicional para centralizar */
+ #introducao {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ }
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+    font-size: 12px;
+    text-align: center;
+}
+footer a {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+#footer{
+    font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        padding: 20px 0;
+    }
+
+    #footer{
+        text-align: center;
+    }
+
+    .img-fluid{
+        margin: 0 auto;
+        width: 80%;
+        display: flex; /* Usando Flexbox */
+        justify-content: center; /* Centraliza o ícone horizontalmente */
+        align-items: center; /* Centraliza o ícone verticalmente */
+    }
+    .rounded{
+       margin: 0 auto;
+       width: 80%;
+    }
+    .scroll-top{
+        font-size: 14px;
+    }
+    #introducao img{
+        width: 80%;
+        display: flex; /* Usando Flexbox */
+        justify-content: center; /* Centraliza o ícone horizontalmente */
+        align-items: center; /* Centraliza o ícone verticalmente */
+    }
+}
+@media (max-width: 768px) {
+    #linguagens h3 {
+        font-size: 24px;
+    }
+    #linguagens p {
+        font-size: 16px;
+    }
+    .display-4.mb-4 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .mb-4{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify; /* Justifica o texto */
+   }
+
+   #porqueprogramacao{
+    font-size: 28px;
+   }
+
+   #visao, #missao, #valores{
+    font-size: 28px;
+   }
+
+   p{
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px
+   }
+   .mt-3{
+    font-size: 16px;
+   }
+
+}
+
+@media (max-width: 768px) {
+    #features h2 {
+        font-size: 28px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
+    .col-md-6{
+        font-size: 16px;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+/* Estilizações para telas pequenas */
+@media (max-width: 576px) {
+    .carousel-caption h5 {
+        font-size: 20px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+    }
+    #call-to-action h2 {
+        font-size: 24px;
+    }
+    #call-to-action p {
+        font-size: 16px;
+    }
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .nav-link {
+        font-size: 16px;
+    }
+    .img-fluid{
+        margin: 0 auto;
+        width: 100%;
+        display: flex; /* Usando Flexbox */
+        justify-content: center; /* Centraliza o ícone horizontalmente */
+        align-items: center; /* Centraliza o ícone verticalmente */
+    }
+}
+
+/* Uiverse */ 
+.containers {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containers .square {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .containers .square:nth-child(2) {
+    transform: translate(-25%, -25%) rotateX(180deg);
+    filter: hue-rotate(60deg);
+  }
+  
+  .containers .square:nth-child(3) {
+    transform: translate(25%, 25%) rotate(180deg);
+    filter: hue-rotate(180deg);
+  }
+  
+  .containers .square::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #0f0;
+    box-shadow: 0 0 0 8px #0f03, 0 0 0 15px #0f01;
+    animation: animateSquare 4s linear infinite;
+  }
+  
+  @keyframes animateSquare {
+    0% {
+      transform: translate(2px,2px);
+    }
+  
+    25% {
+      transform: translate(178px,2px);
+    }
+  
+    50% {
+      transform: translate(178px,178px);
+    }
+  
+    75% {
+      transform: translate(2px,178px);
+    }
+  
+    100% {
+      transform: translate(2px,2px);
+    }
+  }
+  
+  .containers .square span {
+    position: absolute;
+    inset: 10px;
+    overflow: hidden;
+    transform: rotate(calc(90deg * var(--i)));
+  }
+  
+  .containers .square span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #0f0;
+    transform: translateX(-100%);
+    animation: animate 4s linear infinite;
+    animation-delay: calc(1s * var(--i));
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    50%,100% {
+      transform: translateX(100%);
+    }
+  }

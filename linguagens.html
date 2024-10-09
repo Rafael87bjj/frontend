@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Linguagens de Programação - Programação Fácil</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+        <!-- BOTÃO SCROLL TOP -->
+        <button class="scroll-top" onclick="scrollToTop()">
+            <i class='bx bxs-up-arrow'></i>
+        </button>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='bx bx-code'></i> Programação Fácil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="linguagens.html">Linguagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recursos.html">Recursos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Linguagens de Programação -->
+    <section id="linguagens" class="mt-5 pt-5 text-center py-5">
+        <div class="container">
+            <h2 class="display-4 mb-4">Linguagens de Programação</h2>
+            <!-- Aqui aumenta o espaçamento abaixo do parágrafo -->
+            <p class="lead mb-5">Explore as principais linguagens de programação utilizadas hoje e entenda quando e como utilizá-las nos seus projetos.</p>
+            <hr class="my-4">
+            <!-- HTML Section -->
+            <!-- Aqui aumenta o espaçamento antes da primeira linguagem -->
+            <div class="row align-items-center mt-5 mb-5">
+                <div class="col-md-6 text-center">
+                    <img src="imgs/HTML.png" alt="Logo HTML" class="img-fluid rounded mb-3" width="50%">
+                </div>
+                <div class="col-md-6 text-start">
+                    <h3>HTML (Hypertext Markup Language)</h3>
+                    <p>HTML é a linguagem padrão utilizada para criar e estruturar o conteúdo de páginas na web. É a base de todos os sites e aplicativos da internet, definindo a forma como o texto, imagens, links, vídeos e outros elementos são exibidos.</p>
+                    <ul>
+                        <li><strong>Utilidade:</strong> Criação e organização de páginas web.</li>
+                        <li><strong>Características:</strong> Simples de aprender, essencial para iniciantes, funciona em todos os navegadores.</li>
+                        <li><strong>Popularidade:</strong> Fundamental para o desenvolvimento web.</li>
+                    </ul>
+                </div>
+            </div>
+    
+
+            <hr class="my-4">
+
+            <!-- CSS Section -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 order-md-2 text-center">
+                    <img src="imgs/CSS.png" alt="Logo CSS" class="img-fluid rounded mb-3" width="50%">
+                </div>
+                <div class="col-md-6 order-md-1 text-start">
+                    <h3>CSS (Cascading Style Sheets)</h3>
+                    <p>CSS é usado para definir o estilo visual de uma página web. Ele controla a apresentação de documentos HTML, permitindo personalizar cores, fontes, layouts e outros aspectos de design. CSS separa a estrutura do conteúdo da aparência, melhorando a manutenibilidade dos projetos.</p>
+                    <ul>
+                        <li><strong>Utilidade:</strong> Estilização de páginas web e design responsivo.</li>
+                        <li><strong>Características:</strong> Fácil integração com HTML, controle detalhado do layout, suporte para animações.</li>
+                        <li><strong>Popularidade:</strong> Essencial para o desenvolvimento web moderno.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- JavaScript Section -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 text-center">
+                    <img src="imgs/JS.png" alt="Logo JavaScript" class="img-fluid rounded mb-3" width="60%">
+                </div>
+                <div class="col-md-6 text-start">
+                    <h3>JavaScript (JS)</h3>
+                    <p>JavaScript é uma linguagem de programação que permite adicionar interatividade e dinamismo às páginas web. Com JavaScript, é possível criar elementos dinâmicos como animações, jogos, e aplicações completas. Ele é amplamente utilizado em conjunto com HTML e CSS para criar experiências ricas e interativas na web.</p>
+                    <ul>
+                        <li><strong>Utilidade:</strong> Interatividade e comportamento dinâmico em sites e aplicativos web.</li>
+                        <li><strong>Características:</strong> Amplamente compatível com navegadores, permite manipulação em tempo real do conteúdo da página.</li>
+                        <li><strong>Popularidade:</strong> Uma das linguagens mais populares e versáteis.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- Python Section -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 order-md-2 text-center">
+                    <img src="imgs/python.png" alt="Logo Python" class="img-fluid rounded mb-3" width="50%">
+                </div>
+                <div class="col-md-6 order-md-1 text-start">
+                    <h3>Python</h3>
+                    <p>Python é uma linguagem de programação de propósito geral que é conhecida por sua simplicidade e legibilidade. Ela é amplamente usada para desenvolvimento web, análise de dados, inteligência artificial, automação e muito mais. Python tem uma grande comunidade e é uma excelente escolha para iniciantes.</p>
+                    <ul>
+                        <li><strong>Utilidade:</strong> Desenvolvimento de scripts, automação, machine learning e inteligência artificial.</li>
+                        <li><strong>Características:</strong> Fácil de aprender, versátil e poderoso.</li>
+                        <li><strong>Popularidade:</strong> Muito usado em startups e grandes empresas devido à sua simplicidade e funcionalidade.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <!-- Java Section -->
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="imgs/Java.png" alt="Logo Java" class="img-fluid rounded mb-3" width="50%">
+                </div>
+                <div class="col-md-6 text-start">
+                    <h3>Java</h3>
+                    <p>Java é uma linguagem de programação robusta e muito utilizada no desenvolvimento de aplicativos Android e sistemas corporativos. Sua portabilidade entre plataformas e seu forte suporte a grandes projetos a tornam a escolha ideal para sistemas de grande escala e desenvolvimento móvel.</p>
+                    <ul>
+                        <li><strong>Utilidade:</strong> Desenvolvimento de aplicativos móveis e sistemas empresariais.</li>
+                        <li><strong>Características:</strong> Orientada a objetos, portátil entre diferentes plataformas.</li>
+                        <li><strong>Popularidade:</strong> Muito usado em grandes corporações e no desenvolvimento Android.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p id="footer">&copy; 2024 Programação Fácil. Todos os direitos reservados.</p>
+        <div>
+            <a href="#" class="text-white me-3">Política de Privacidade</a>
+            <a href="#" class="text-white">Termos de Serviço</a>
+        </div>
+    </footer>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
